@@ -1,0 +1,4 @@
+#the NAme of used libraries in the project
+#Libraries for EncryptionManager by Mohamed Elslakawy
+cryptography(Fernet/AES)
+Python built‑in(encode(),decode())
