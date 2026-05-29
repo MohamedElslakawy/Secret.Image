@@ -1,4 +1,15 @@
-#the NAme of used libraries in the project
-#Libraries for EncryptionManager by Mohamed Elslakawy
-cryptography(Fernet/AES)
-Python built‑in(encode(),decode())
+# The name of used libraries in the project.
+
+# Library for EncryptionManager by Mohamed Elslakawy.
+# It is used for Fernet/AES encryption and decryption.
+cryptography
+
+# Libraries for StegoManager.
+# Pillow is used to open, edit, and save images.
+Pillow
+
+# numpy is used to convert image pixels into arrays.
+numpy
+
+# GUI library:
+# Tkinter is built in with Python, so it does not need pip installation.
