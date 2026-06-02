@@ -24,16 +24,4 @@ class EncryptionManager:
     def get_key(self) -> bytes:
         return self.key
     
-    # Ex to make Test the encryption and decryption process
-    #/core/python encryption_manager.py
-if __name__ == "__main__":
-    manager = EncryptionManager()
-    key = manager.get_key()
-    print("Key:", key)
-
-    secret = "This is a hidden message!"
-    encrypted = manager.encrypt_text(secret)
-    print("Encrypted:", encrypted)
-
-    decrypted = manager.decrypt_text(encrypted)
-    print("Decrypted:", decrypted)
+   
